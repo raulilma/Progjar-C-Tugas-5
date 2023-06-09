@@ -2,9 +2,9 @@
 Running 10s test @ http://localhost:55555/pokijan.jpg
   200 threads and 1000 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency   274.88ms   65.98ms 341.04ms   66.67%
-    Req/Sec     0.07      0.27     1.00     92.86%
-  15 requests in 10.10s, 232.46KB read
-  Socket errors: connect 0, read 28483, write 0, timeout 0
-Requests/sec:      1.49
-Transfer/sec:     23.01KB
+    Latency    14.83ms   94.18ms   2.00s    98.48%
+    Req/Sec   115.15     85.25   404.00     65.56%
+  17913 requests in 10.06s, 270.72MB read
+  Socket errors: connect 0, read 0, write 0, timeout 39
+Requests/sec:   1779.83
+Transfer/sec:     26.90MB
