@@ -1,0 +1,10 @@
+(base) jovyan@6323b338d034:~/work/progjar/progjar6$ wrk -c 1000 -t 100 http://localhost:8000/page.html
+Running 10s test @ http://localhost:8000/page.html
+  100 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   721.67ms  434.13ms   1.88s    59.87%
+    Req/Sec     6.29      7.84   101.00     91.25%
+  1259 requests in 10.07s, 277.87KB read
+  Socket errors: connect 0, read 0, write 0, timeout 53
+Requests/sec:    125.01
+Transfer/sec:     27.59KB

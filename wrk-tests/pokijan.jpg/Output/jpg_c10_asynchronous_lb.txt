@@ -1,0 +1,10 @@
+(base) jovyan@6323b338d034:~/work/progjar/progjar6$ wrk -c 1000 -t 10 http://localhost:55555/pokijan.jpg
+Running 10s test @ http://localhost:55555/pokijan.jpg
+  10 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   311.67ms   30.29ms 372.92ms   70.00%
+    Req/Sec     1.12      2.45    10.00     94.12%
+  20 requests in 10.09s, 309.87KB read
+  Socket errors: connect 0, read 21749, write 0, timeout 0
+Requests/sec:      1.98
+Transfer/sec:     30.72KB
